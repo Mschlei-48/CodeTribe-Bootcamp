@@ -1,0 +1,123 @@
+#about-a{
+    color:white;
+    text-decoration: none;
+}
+#contact-a{
+    color:white;
+    text-decoration: none;
+}
+#home-a{
+    color:white;
+    text-decoration: none;
+}
+
+.nav{
+    top:5%;
+    cursor: pointer;
+    padding:1%;
+    border:5%;
+    border-radius:5%;
+    font-weight: bold;
+    font-size:20px;
+
+}
+#contact{
+    position:absolute;
+    right:2%;
+    background-color: orange;
+    width:8%;
+    text-align:center;
+}
+
+#about{
+    position:absolute;
+    right:16%;
+    background-color: blue;
+    width:8%;
+    text-align:center;
+}
+#home{
+    position:absolute;
+    right:30%;
+    background-color:purple;
+    width:8%;
+    text-align:center;
+    
+}
+#logo-img{
+    width:7%;
+    height:7%;
+    border-radius: 100px;
+}
+#img{
+    /* position:absolute; */
+    background-position:center;
+    width:100%;
+    height:50%;
+}
+#name{
+    font-weight:bold; 
+    font-size:50px;
+    text-align: center;   
+}
+#bio{
+    font-size:20px;
+    text-align:center;
+}
+#image-container{
+    width:100%;
+}
+#bio-container{
+    /* width:50%; */
+    /* float:left; */
+}
+#profile-container{
+    /* width:50%; */
+    /* float:right;
+    display:grid;
+    place-items: center; */
+    display:grid;
+    place-items: center;
+}
+
+.parent-container{
+    display:flex;
+}
+.profile-containers{
+    flex:1;
+}
+
+#profile-img{
+    position:absolute;
+    width:20%;
+    height:40%;
+    border-radius:100%;
+}
+#reach-out{
+    font-weight:bold;
+    font-size:26px;
+}
+footer{
+    background-color:purple;
+    text-align: center;
+    padding: 20px;
+}
+.social-media-links{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    margin: 0 10px;
+}
+/* #facebook{
+    position:absolute;
+    right:250px;
+
+}
+#github{
+    position:absolute;
+    right:720px;
+}
+#linkedin{
+    position:absolute;
+    left:250px;
+} */
