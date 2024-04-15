@@ -108,6 +108,108 @@ footer{
     font-size:20px;
     margin: 0 10px;
 }
+
+.mishi-about-me{
+    width:50%;
+}
+.about-me-img{
+    margin-left:40%;
+    margin-right:20%;
+}
+
+.personal-and-edu{
+    display:flex;
+    justify-content:space-around;
+    font-family:Arial;
+    align-items:center;
+    margin-top:5%;
+}
+.personal-info{
+    background-color:blue;
+    padding:8%;
+    
+}
+.edu-info{
+    background-color:orange;
+    padding:8%;
+    height:40%;
+    width:25%;
+}
+h2{
+    color:white;
+}
+p{
+    color:white;
+}
+li{
+    color:white;
+}
+.project-and-work{
+    display:flex;
+}
+.project-info{
+    background-color: black;
+    padding:8%;
+}
+.work-info{
+    background-color: purple;
+    padding:8%;
+}
+
+.project-and-work{
+    justify-content:space-around;
+    font-family:Arial;
+    align-items:center;
+    margin-top:4%;
+}
+a{
+    text-decoration: none;
+    Color:white;
+}
+
+
+#bio{
+    color:black;
+    font-family:Arial;
+}
+#contact-us-heading{
+    color:black;
+}
+.contact-form{
+    display:flex;
+}
+.location{
+    margin-top:7%;
+    width:300px;
+}
+.input-form{
+    margin-top:7%;
+    width:calc(1099vh-300px);
+    margin-left:30%;
+}
+input{
+    height:30px;
+    width:300px;
+}
+#message{
+    height:80px;
+}
+#submit{
+    width:310px;
+    border-radius:10px;
+    height:50px;
+    background-color: orange;
+}
+
+.project-info{
+    width:320px;
+}
+.work-info{
+    height:180px;
+    width:328px;
+}
+
+
 /* #facebook{
     position:absolute;
     right:250px;
