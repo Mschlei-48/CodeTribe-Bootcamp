@@ -1,5 +1,5 @@
 # **Introduction to HTML CodeTribe Bootcamp**
-* This task is the first task for the CodeTribe Bootcamp.
+* This task is the second task for the CodeTribe Bootcamp.
 * It covers the basics of HTML and CSS.
 * The below are snippets of what I created.
 
