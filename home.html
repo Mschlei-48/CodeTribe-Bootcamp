@@ -6,6 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/dd81ecca87.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div>
@@ -26,11 +27,8 @@
 
         <div class="parent-container">
         <div id="bio-container" class="profile-containers">
-            <p id="name">Mishi Makade</p>
-            <p id="bio">Hardworking and dedicated individual with good communication skills. Always eager to learn and expand
-                knowledge. As a result of my excellent C++ skills and good communication skills, I tutored first years in
-                Data Structures and Algorithms in the C++ programming language module. Very skilled in two
-                programming languages, Python and C++. Familiar with Tableau data visualization software, M ATLAB, Javascript, and SQL database management and development.</p>
+            <!-- <p id="name"></p> -->
+            <p id="bio"></p>
         </div>
         <div id="profile-container" class="profile-containers">
             <img src="assets/mishi2.jpg" id="profile-img">
@@ -56,9 +54,16 @@
             <span id="facebook"><a href="https://web.facebook.com/profile.php?id=100079961800252" class="social-media-links" target="blank">Facebook</a></span>
         </div>
         <div>
-            <p><i class="fa-solid fa-phone"></i>+27 73 894 7110</p>
+            <p id="number"><i class="fa-solid fa-phone"></i></p>
         </div>
     </footer>
 </div>
+<script>
+            document.addEventListener('DOMContentLoaded', function() {
+            // Access the 'bio' variable from script.js
+            document.getElementById("bio").textContent = bio;
+            document.getElementById("number").innerHTML = mobile_number;
+        });
+</script>
 </body>
 </html>

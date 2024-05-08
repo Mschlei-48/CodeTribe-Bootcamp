@@ -22,18 +22,18 @@
             </div>
             <div class="input-form">
                 <h2 id="contact-us-heading">Contact Us</h2>
-                <form>
+                <form action="https://formspree.io/f/myyrorwk" method="POST">
                     <label for="fname">First name:</label><br>
-                    <input type="text" id="fname" name="fname"><br>
+                    <input type="text" id="fname" name="fname" required><br>
                     <br>
                     <label for="lname">Last name:</label><br>
-                    <input type="text" id="lname" name="lname"><br>
+                    <input type="text" id="lname" name="lname" required><br>
                     <br>
                     <label for="email">Email Address:</label><br>
-                    <input type="text" id="email" name="email"><br>
+                    <input type="text" id="email" name="email" required><br>
                     <br>
                     <label for="message">Message:</label><br>
-                    <input type="text" id="message" name="message"><br>
+                    <textarea rows="5" cols="39" name="message" required></textarea><br>
                     <br>
                     <input type="submit" value="Submit" id="submit">
                 </form>
